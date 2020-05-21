@@ -1,9 +1,16 @@
+* {
+  margin: 0;
+}
 body {
   font-family: "Press Start 2P", cursive;
   color: #373737;
   letter-spacing: 2px;
   background-color: #aaaaaa;
   max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 h1 {
@@ -11,8 +18,7 @@ h1 {
 }
 
 .container {
-  background-image: url(assets/Background01.png);
-  background-position: center;
+  background-color: rgb(26, 66, 26);
   padding: 20px;
 }
 
@@ -176,7 +182,10 @@ button {
   margin: 5px 15px;
 }
 
-
+p {
+text-align: center;
+margin: 10px;
+}
 
 
 
