@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bjstyle.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="table">
+        <div class="cards">
+          <div class="left">
+            <h1>PLAYER</h1>
+            <div class="playerContainer">
+              <div class="playerInit"></div>
+              <div class="playerScore">
+                <p></p>
+              </div>
+              <div class="player"></div>
+            </div>
+          </div>
+
+          <div class="right">
+            <h1>DEALER</h1>
+            <div class="dealerContainer">
+              <div class="dealerInit"></div>
+              <div class="dealerScore">
+                <p>SC</p>
+              </div>
+              <div class="dealer"></div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="button" onclick="HitMe()">HIT ME</button>
+          <button class="button" onclick="Stand()">STAND</button>
+        </div>
+      </div>
+    </div>
+    <div class="messageContainer">
+      <h1 class="messageText"></h1>
+      <button class="newGameBtn" onclick="NewGame()">NEW GAME</button>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="bjjavascript.js"></script>
+  </body>
+</html>

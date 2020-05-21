@@ -1,0 +1,190 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  color: #373737;
+  letter-spacing: 2px;
+  background-color: #aaaaaa;
+  max-height: 100vh;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.container {
+  background-image: url(assets/Background01.png);
+  background-position: center;
+  padding: 20px;
+}
+
+.table {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  background-color: #ffffff;
+}
+
+.left,
+.right {
+  margin: 0 40px;
+}
+.left h1,
+.right h1 {
+  text-align: center;
+}
+
+.UI {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dealerChipContainer {
+  flex: 3;
+  margin: 10px 0;
+}
+
+.dealerChip {
+  font-size: 12px;
+  margin-left: 110px;
+  background-color: #ffffff;
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: #aaaaaa;
+  border-width: 2px;
+  box-shadow: 2px 2px 2px;
+  margin-bottom: 10px;
+}
+
+.balance {
+  height: 65px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #dbdbdb;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+
+button {
+  font-family: "Press Start 2P", cursive;
+  color: #373737;
+  letter-spacing: 2px;
+  width: 21%;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin: 10px;
+  border-style: none;    
+  box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+
+.card:hover {
+  background-color: #ddd;
+}
+
+.card {
+  border-radius: 6px;
+  margin: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  width: 100px;
+}
+
+.dealerContainer,
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dealerInit,
+.playerInit {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 220px;
+}
+.dealerInit {
+  margin-left: auto;
+}
+
+.dealer,
+.player {
+  padding-top: 10px;
+  height: 276px;
+  display: flex;
+  align-items: flex-start;
+}
+.dealer {
+  flex-direction: row-reverse;
+}
+
+.playerScore,
+.dealerScore {
+  color: #ffffff;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.dealerScore {
+  color: rgba(0,0,0,0);
+}
+
+.messageContainer {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-left: -25%;
+  width: 50%;
+  height: 16%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.hidden {
+  display: none;
+}
+.messageText{
+  color: #373737;
+  flex: 1;
+  text-align: center;
+  margin: 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
